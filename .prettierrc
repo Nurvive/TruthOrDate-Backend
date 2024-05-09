@@ -1,0 +1,19 @@
+{
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "trailingComma": "all",
+  "printWidth": 120,
+  "tabWidth": 2,
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": [
+        "**/*.json",
+        ".*rc"
+      ],
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
+}
